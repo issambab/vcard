@@ -481,6 +481,7 @@ class FrontController extends Controller
             {
                 while (($row = fgetcsv($handle, 1000, $delimiter)) !== false)
                 {
+                  
                     if (!$header)
                         $header = $row;
                     else
@@ -496,16 +497,16 @@ class FrontController extends Controller
         
     public function importCsvUser()
         {
-            $file =  public_path('password.csv'); 
+            $file =  public_path('test2.csv'); 
 
 
 
 
             $customerArr = $this->csvToArray($file);
         //  echo '<pre>';
-  // print_r($customerArr);
+   print_r($customerArr);
           //  echo $pw =  bcrypt('250309b5');
-          //  exit();
+            exit();
        
            $delimiter =';';
  $filename = "societe_login" . date('Y-m-d') . ".csv"; 
