@@ -25,7 +25,7 @@ Route::get('/getinfocandida/{id}', 'FrontController@getinfocandida')->name('geti
 Route::get('/editprofile', 'HomeController@editprofile')->name('editprofile');
 Route::get('/vcardsProfile', 'HomeController@vcards')->name('vcardsProfile');
 
-Route::get('/vcards', 'HomeController@vcards')->name('vcards');
+Route::get('/vcards/{id}', 'HomeController@vcards')->name('vcards');
 
 
 Route::get('/stat', 'HomeController@statecol')->name('stat');
@@ -33,7 +33,7 @@ Route::get('/password', 'HomeController@password')->name('password');
 
 Route::get('/search', 'HomeController@search')->name('search');
 
-Route::get('/', 'HomeController@appHome')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/inscription', 'HomeController@inscription')->name('inscription');
 Route::post('/creation','HomeController@creation')->name('creation');
 Route::post('imageFileUpload', 'HomeController@ImageFileUpload')->name('Request.ImageFileUpload');

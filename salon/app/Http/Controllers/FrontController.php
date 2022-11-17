@@ -7,11 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use App\Product;
 use App\Code_carte;
-use App\Boutique;
 use App\User;
-use App\Imprimeur;
 use App\Enterprise;
 use Carbon\Carbon;
 use App\Candidat;
@@ -55,7 +52,6 @@ class FrontController extends Controller
                 }
                 return $str;
         }
-	
 	
 	
 	public function codeGenere()

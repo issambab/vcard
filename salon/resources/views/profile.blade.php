@@ -125,6 +125,10 @@
         </div>
 
        
+        <div class="vcard-row">
+                   <a href="{{url('/vcards/')}}/{{$user->nsponso}}" >Download </a>
+             </div>
+
       </div>
     </div>
   </body>

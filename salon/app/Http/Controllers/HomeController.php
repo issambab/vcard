@@ -36,16 +36,19 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+
     public function index()
     {
-        return view('home');
+
+        //return view('home');
     }
-	 public function loginprint()
+	 
+    public function loginprint()
     {
      return view('front.home.loginprint');
     }
 	
-		  public function password()
+	public function password()
         {	
 		  // echo  $pwd = bin2hex(openssl_random_pseudo_bytes(4));
            $pwd = 123456789 ;
@@ -91,7 +94,9 @@ class HomeController extends Controller
 
         }
 
-    public function vcardsProfile(){
+    public function vcardsProfile()
+       {
+        
             $vcard = new VCard();
             // define variables
             $lastname = 'Desloovere';
@@ -104,21 +109,40 @@ class HomeController extends Controller
             return $vcard->download();
         }    
             
-    public function vcards(){
+  
+        public function vcards(Request $request , $id)
+        {
+
+            $user = DB::table('candidats')->where('nsponso' , '=', $id)->first();
             $vcard = new VCard();
             // define variables
-            $lastname = 'Desloovere';
-            $firstname = 'Jeroen';
+            $lastname = $user->nom;
+            $firstname = '';
             $additional = '';
             $prefix = '';
             $suffix = '';
             // add personal data
             $vcard->addName($lastname, $firstname, $additional, $prefix, $suffix);
+
+            // add work data
+            /*$vcard->addCompany('Siesqo');
+            $vcard->addJobtitle('Web Developer');
+            $vcard->addRole('Data Protection Officer');
+            $vcard->addEmail('info@jeroendesloovere.be');
+            $vcard->addPhoneNumber(1234121212, 'PREF;WORK');
+            $vcard->addPhoneNumber(123456789, 'WORK');
+            $vcard->addAddress(null, null, 'street', 'worktown', null, 'workpostcode', 'Belgium');
+            $vcard->addLabel('street, worktown, workpostcode Belgium');
+            $vcard->addURL('http://www.jeroendesloovere.be');
+
+            $vcard->addPhoto(__DIR__ . '/landscape.jpeg');*/
+
             return $vcard->download();
         }
 
 
-    public function inscription()
+   
+        public function inscription()
     {
      return view('front.home.inscription');
     }
@@ -152,27 +176,28 @@ class HomeController extends Controller
 
 
 
-    public function ImageFileUpload(Request $request) {
+    public function ImageFileUpload(Request $request) 
+    {
 
-
-        $this->validate($request, [
-     
-           'file' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:8192',
-       
-        ],[ 'file.required' => "L'image est obligatoire",
-        'file.mimes' => "L'image doit être un fichier de type : jpeg, png, jpg."]); 
-     
-        if ($request->hasFile('file')) {
-            $image = $request->file('file');
-            $name = time().'.'.$image->getClientOriginalExtension();
-            $destinationPath = public_path('/upload');
-            $image->move($destinationPath, $name);
-            return response()->json(['success' =>true , 'img'=>$name ]);
-        }
+                    $this->validate($request, [
+                
+                    'file' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:8192',
+                
+                    ],[ 'file.required' => "L'image est obligatoire",
+                    'file.mimes' => "L'image doit être un fichier de type : jpeg, png, jpg."]); 
+                
+                    if ($request->hasFile('file')) {
+                        $image = $request->file('file');
+                        $name = time().'.'.$image->getClientOriginalExtension();
+                        $destinationPath = public_path('/upload');
+                        $image->move($destinationPath, $name);
+                        return response()->json(['success' =>true , 'img'=>$name ]);
+                    }
      }
 
 
-    public function creation(Request $request)
+   
+     public function creation(Request $request)
     {
        // dd($request);
         $this->validate($request, [
@@ -284,31 +309,25 @@ class HomeController extends Controller
 	
 	
 	public function importCsv()
-{
-     $file =  public_path('codeetudiant.csv'); 
+    {
+        $file =  public_path('codeetudiant.csv'); 
+        $customerArr = $this->csvToArray($file);
 
-
-
-
-    $customerArr = $this->csvToArray($file);
-
-   // print_r($customerArr);
-	
-  foreach($customerArr as $key=>$val) {
-	  
-		 echo   $val[0] ;
-		 echo '<br>';
-		 
-		   $Code_etudiant = DB::table('code_etudiants')->where("code_etudiant" ,'=',  $val[0] )->first();
-            if(empty($Code_etudiant)){
-               	 $Code_etudiants = new Code_etudiant();
-		         $Code_etudiants->code_etudiant =   $val[0];
-		       //  $Code_etudiants->save() ; 
-            }
-
+         // print_r($customerArr);
+        
+        foreach($customerArr as $key=>$val) {
+            echo   $val[0] ;
+            echo '<br>';
+            
+            $Code_etudiant = DB::table('code_etudiants')->where("code_etudiant" ,'=',  $val[0] )->first();
+                if(empty($Code_etudiant)){
+                    $Code_etudiants = new Code_etudiant();
+                    $Code_etudiants->code_etudiant =   $val[0];
+                //  $Code_etudiants->save() ; 
+                }
+        }
+        return 'Jobi done or what ever';    
     }
-    return 'Jobi done or what ever';    
-}
 
 	
     
