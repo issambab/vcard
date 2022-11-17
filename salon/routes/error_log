@@ -1,0 +1,676 @@
+[10-Feb-2021 06:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 06:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 06:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 06:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 09:35:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 09:35:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 09:35:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 09:35:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 09:35:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 09:36:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 09:36:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 09:36:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 10:40:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 10:40:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 10:40:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 10:40:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 10:40:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 10:40:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 10:40:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 10:40:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 11:16:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 11:16:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 11:17:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 11:17:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 11:17:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 11:17:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 11:55:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 11:55:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 11:55:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 11:55:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 11:55:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 11:55:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 11:55:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 11:55:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 12:34:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 12:34:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 12:34:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 12:34:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 12:39:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 12:39:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 12:39:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 12:39:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 12:39:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 12:39:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 12:39:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 12:39:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 13:16:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 13:16:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 13:16:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 13:16:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 13:16:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 13:16:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 13:16:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 13:16:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 13:56:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 13:56:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 13:56:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 13:56:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 13:56:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 13:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 13:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 13:56:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 14:39:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 14:39:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 14:39:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 14:39:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 14:39:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 14:39:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 14:39:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 14:39:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 16:00:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 16:00:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 16:00:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 16:00:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 16:00:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 16:00:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 16:00:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 16:00:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 16:43:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 16:43:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 16:43:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 16:43:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 16:43:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 16:43:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 16:43:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 17:18:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 17:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 17:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 17:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 17:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 17:18:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 17:18:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 17:18:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 17:59:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 17:59:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 17:59:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 17:59:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 17:59:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 17:59:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 17:59:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 17:59:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 18:18:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 18:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 18:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 18:18:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 18:18:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 18:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 18:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 18:18:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 18:42:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 18:42:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 18:42:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 18:42:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 18:42:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 18:42:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 18:42:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 18:42:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 19:25:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 19:25:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 19:25:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 19:25:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 19:25:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 19:25:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 19:25:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 19:25:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 19:56:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 19:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 19:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 19:56:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 19:56:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 19:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 19:56:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 20:39:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 20:39:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 20:39:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 20:39:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 20:39:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 20:39:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 20:39:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 20:39:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 21:20:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 21:21:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 21:21:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 21:21:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 21:21:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 21:21:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 21:21:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 21:21:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 21:55:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 21:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 21:55:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 21:55:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 21:55:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 21:55:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 21:55:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 21:55:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 23:36:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 23:36:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
+[10-Feb-2021 23:36:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 23:36:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/sponsorha/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/channels.php on line 16
+[10-Feb-2021 23:36:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 23:36:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/sponsorha/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/console.php on line 17
+[10-Feb-2021 23:36:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[10-Feb-2021 23:36:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/web.php on line 17
+[12-Feb-2021 09:18:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/sponsorha/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sponsorha/public_html/routes/api.php on line 17
