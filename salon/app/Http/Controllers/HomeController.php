@@ -296,6 +296,7 @@ class HomeController extends Controller
 		{
 			while (($row = fgetcsv($handle, 1000, $delimiter)) !== false)
 			{
+           
 				if (!$header)
 					$header = $row;
 				else
