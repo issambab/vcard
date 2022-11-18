@@ -199,62 +199,32 @@ class HomeController extends Controller
    
      public function creation(Request $request)
     {
-       // dd($request);
-        $this->validate($request, [
-            'lname' => 'required|string|max:255',
-            'fname' => 'required|string|max:255',
-            'place' => 'required|string|max:255',      
-            'dateofbirth'=> 'required',
-			'phone' => 'required',
-            'email' => 'required|unique:candidats|string|max:255',
-            'ecole' => 'required',
-        /*    'code_etudiant' => 'required|unique:candidats|exists:code_etudiants|string|max:255',*/
-            'imgName' => 'required',
-            //'image'  => 'required|mimes:jpeg,png,jpg',
-        ],[
-            'lname.required' => 'Le nom est obligatoire',
-            'fname.required' => 'Le Prénom est obligatoire',
-            'place.required' => 'Le lieu de résidence est obligatoire',
-            'dateofbirth.required' => 'La date de naissance est obligatoire',
-            'phone.required' => 'Le téléphone est obligatoire',
-            'email.required' => "L'adresse e-mail est obligatoire",
-            'email.unique' => "L'adresse e-mail est déja utilise",
-            'ecole.required' => "L'ecole est obligatoire",
-            'code_etudiant.required' => 'Le code est obligatoire',
-            'code_etudiant.unique' => 'Le code est déja utilise',
-            'code_etudiant.exists' => "Le code est n'existe ",
-            'imgName.required' => "L'image est obligatoire",
-            //'image.mimes' => "L'image doit être un fichier de type : jpeg, png, jpg."
-        ]);
+      
+        
      
+       
 
-
-            $Candidat = new Candidat();  
-            $Candidat->nom =   $request->lname ;
-            $Candidat->prenom = $request->fname ;
-            $Candidat->date_n = $request->dateofbirth ;
-            $Candidat->img =  "upload/".$request->imgName ;
+            $Candidat =  Candidat::find(Auth::user()->candidat->id);  
+            
+            $Candidat->nom =   $request->name ;
+            $Candidat->prenom =   $request->name ;
+            $Candidat->function = $request->job ;
+            if($Candidat->img!=$request->imgName){
+                $Candidat->img =  "upload/".$request->imgName ;
+            }
             $Candidat->telephone =  $request->phone ;
             $Candidat->email        =  $request->email ;
-            $Candidat->adresse          = $request->place ;    
-            $Candidat->ecole         =   $request->carte_imp ;
-            $Candidat->ecole         =   $request->ecole ;
-            $Candidat->code_etudiant    =  $request->code_etudiant ;
-            $Candidat->carte_imp = 0 ;
+            $Candidat->adresse          = $request->adresse ;  
+            $Candidat->carte_imp          = 1 ;   
             $Candidat->save();  
+        
 
-            $Code_etudiant = DB::table('code_etudiants')->where("code_etudiant" ,'=',  $request->code_etudiant )->first();
-            if(!empty($Code_etudiant)){
-                $Code_etudiants = Code_etudiant::find($Code_etudiant->id) ;
-                $Code_etudiants->id_candidats = $Candidat->id ; 
-                $Code_etudiants->save();  
-            }
-            
+
 
 
       session()->flash('successCreate','le candidat a étè bien enrgistre !!') ;
      
-      return   redirect()->route('inscription')->with('message',"Ces identifiants ne correspondent pas à nos enregistrements");     
+      return   redirect()->route('editprofile')->with('message',"Ces identifiants ne correspondent pas à nos enregistrements");     
     }
         
 

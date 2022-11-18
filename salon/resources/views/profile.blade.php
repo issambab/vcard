@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+
 
 
     <link rel="stylesheet" href="{{ asset('profilecss/style.css')}}" />
@@ -19,9 +23,9 @@
     <div class="page">
       <div class="vcard-header gradient-red-orange-bg">
         <div class="vcard-header-wrapper">
-          <div class="vcard-top-info">img
+          <div class="vcard-top-info">
             <h4 class="top"></h4>
-            <div class="img" style="background: url({{ asset($user->img)}})"></div>
+            <div class="img" style="background:url({{ asset('img/user.png')}}), url({{ asset($user->img)}}) ;background-size:108%,100%  !important;"></div>
             <h2 class="name dynamicTextColor ng-binding">{{$user->nom}} {{$user->prenom}}</h2>
             <h6 class="title dynamicTextColor ng-binding">
             {{$user->function}}  
@@ -122,13 +126,12 @@
             </div>
             @endif 
           </div>
+              <div class="vcard-row">
+                    <a href="{{url('/vcards/')}}/{{$user->nsponso}}"  class="prime"><span> Download </span></a>
+              </div>
         </div>
 
-       
-        <div class="vcard-row">
-                   <a href="{{url('/vcards/')}}/{{$user->nsponso}}" >Download </a>
-             </div>
-
+     
       </div>
     </div>
   </body>
