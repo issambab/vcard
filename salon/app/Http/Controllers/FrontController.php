@@ -57,7 +57,7 @@ class FrontController extends Controller
 	public function codeGenere()
         {
          	
-        for($i=0;$i<600;$i++){
+        for($i=0;$i<300;$i++){
             echo '<br>';
             $strrend = $this->random_str(8);
                 $Code_carte = DB::table('code_carte')->where('code', '=',  $strrend )->first();
@@ -504,45 +504,60 @@ class FrontController extends Controller
 
             $customerArr = $this->csvToArray($file);
         //  echo '<pre>';
-   print_r($customerArr);
+   //print_r($customerArr);
           //  echo $pw =  bcrypt('250309b5');
-            exit();
+        //   exit();
        
            $delimiter =';';
- $filename = "societe_login" . date('Y-m-d') . ".csv"; 
+ $filename = "all_login" . date('Y-m-d') . ".csv"; 
      
     // Create a file pointer 
-    $f = fopen('php://memory', 'w'); 
+  //  $f = fopen('php://memory', 'w'); 
 	
         foreach($customerArr as $key=>$val) {
-            
-        
+           
             $pwd = bin2hex(openssl_random_pseudo_bytes(4));
             $pw =  bcrypt($pwd);
             
+            if($val[3] != '') {
+
             $Users = new User();
             $Users->password =  $pw ;
             $Users->name= $val[0] ;
-            $Users->email = strtolower($val['0']).'@fairsj.com' ;
+            $Users->email =$val[3] ;
             $Users->role = 0 ;
-            //$Users->save() ;
+            $Users->save() ;
             
             //print_r($Users);
-            
-            $Enterprise = new Enterprise();
-            $Enterprise->name = $val[0] ;	
-            $Enterprise->role	= 0 ; 
-            $Enterprise->user_id = $Users->id ;
-            // $Enterprise->save() ;
-            
-          //  echo  strtolower($val['0']).'@fairsj.com;'.$val[0].';'.$pwd.'\r'  ;
 
-          // echo '<br>' ;
-             $lineData = array(strtolower($val['0']).'@fairsj.com',$pwd); 
-              fputcsv($f, $lineData, $delimiter); 
+           
+            $Code_carte  = DB::table('code_carte')->where('id_candidats' , '=', null)->first();
+            $Code_cartes = Code_carte::find($Code_carte->id) ;
+            
+            $Candidat = new Candidat();
+            $Candidat->nom = $val[0] ;	
+            $Candidat->prenom = $val[0] ;	
+            $Candidat->email = $val[3] ;
+            $Candidat->telephone = $val[4] ;	
+            $Candidat->etat_don = 0;
+            $Candidat->carte_imp = 0;
+            $Candidat->user_id = $Users->id ;
+            $Candidat->nsponso = $Code_cartes->code;
+             $Candidat->save() ;
+
+
+            $Code_cartes->id_candidats = $Candidat->id;
+            $Code_cartes->save() ;
+            
+            echo  'https://www.fairsj.net/'.$Code_cartes->code.';'.strtolower($val[3]).';'.$pwd.';'.'https://www.fairsj.net/login' ;
+
+           echo '<br>' ;
+             $lineData = array('https://www.fairsj.net/'.$Code_cartes->code ,strtolower($val[0]),$pwd,'https://www.fairsj.net/login'); 
+         //     fputcsv($f, $lineData, $delimiter); 
+            }
         } 
      
-    // Move back to beginning of file 
+    // Move back to beginning of file UPDATE `code_carte` SET `id_candidats` = NULL WHERE `code_carte`.`id_candidats` > 0;
     fseek($f, 0); 
      
     // Set headers to download file rather than displayed 

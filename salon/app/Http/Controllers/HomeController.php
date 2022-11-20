@@ -17,7 +17,7 @@ use App\User;
 use App\Imprimeur;
 use App\Enterprise;
 use App\Code_etudiant;
-
+ use Illuminate\Support\Facades\Response;
 
 class HomeController extends Controller
 {
@@ -76,7 +76,7 @@ class HomeController extends Controller
 
     public function editprofile()
         {
-
+        
             $vcard = new VCard();
             // define variables
             $lastname = 'Desloovere';
@@ -95,8 +95,8 @@ class HomeController extends Controller
         }
 
     public function vcardsProfile()
-       {
-        
+       {echo 'dddddd';
+        exit();
             $vcard = new VCard();
             // define variables
             $lastname = 'Desloovere';
@@ -105,8 +105,8 @@ class HomeController extends Controller
             $prefix = '';
             $suffix = '';
             // add personal data
-            $vcard->addName($lastname, $firstname, $additional, $prefix, $suffix);
-            return $vcard->download();
+            $vcard->addName($lastname);
+                        //return $vcard->download();																		$content =  $vcard->getOutput();$response = new Response();$response->setContent($content);$response->setStatusCode(200);   $response->headers->set('Content-Type', 'text/x-vcard');$response->headers->set('Content-Disposition', 'attachment; filename="'.str_slug($lastname).'.vcf"');$response->headers->set('Content-Length', mb_strlen($content, 'utf-8'));return $response;
         }    
             
   
@@ -121,10 +121,10 @@ class HomeController extends Controller
             $additional = '';
             $prefix = '';
             $suffix = '';
-            // add personal data
-            $vcard->addName($lastname, $firstname, $additional, $prefix, $suffix);
-
-            // add work data
+            // add personal data			
+            $vcard->addName($lastname);			$vcard->addJobtitle($user->function);			$vcard->addEmail($user->email);						//$vcard->addPhoto('https://www.fairsj.net/'.$user->img);
+			$vcard->addAddress(null, null, $user->adresse, '', null, '', '');			$vcard->addLabel('street, ,  ');            $vcard->addPhoneNumber($user->telephone, 'WORK');			$vcard->addURL($user->url_linkedin , 'TYPE=Linkedin');			$vcard->addURL($user->url_instagram , 'TYPE=Instagram' );			$vcard->addURL($user->url_facebook , 'TYPE=Facebook' );
+            // add work 
             /*$vcard->addCompany('Siesqo');
             $vcard->addJobtitle('Web Developer');
             $vcard->addRole('Data Protection Officer');
@@ -136,8 +136,7 @@ class HomeController extends Controller
             $vcard->addURL('http://www.jeroendesloovere.be');
 
             $vcard->addPhoto(__DIR__ . '/landscape.jpeg');*/
-
-            return $vcard->download();
+return Response::make(    $vcard->getOutput(),    200,    $vcard->getHeaders(true));						
         }
 
 

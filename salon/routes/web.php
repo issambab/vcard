@@ -21,8 +21,9 @@ Auth::routes();
 
 Route::get('/getinfocandida/{id}', 'FrontController@getinfocandida')->name('getinfocad');
 
+Route::get('/{id}', 'FrontController@getinfocandida')->name('getinfocad');
 
-Route::get('/editprofile', 'HomeController@editprofile')->name('editprofile');
+Route::get('/edit/profile', 'HomeController@editprofile')->name('editprofile');
 Route::get('/vcardsProfile', 'HomeController@vcards')->name('vcardsProfile');
 
 Route::get('/vcards/{id}', 'HomeController@vcards')->name('vcards');

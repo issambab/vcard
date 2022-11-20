@@ -1,79 +1,127 @@
 body {
   margin: 0;
+
   padding: 0;
+
   height: 100%;
+
   font-family: "Source Sans Pro", sans-serif !important;
 }
+
 .page {
   opacity: 1;
+
   display: block;
 }
+
 .vcard-header {
   padding-top: 60px;
-  background: linear-gradient(45deg, #053963 0%, #355360 1%, #dba144 100%);
+
+  background: /*url("../img/bg-motif.png"),*/ linear-gradient(
+    45deg,
+    #355360 1%,
+    #053963 100%
+  );
+
   position: relative;
+
   text-align: center;
 }
 
 @media (min-width: 690px) {
   .vcard-header .vcard-header-wrapper {
     width: 570px;
+
     margin: 0 auto;
+
     box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
   }
 }
 
 .vcard-header .vcard-top-info {
   max-width: 480px;
+
   margin: 0 auto 0 auto;
 }
+
 .vcard-header .img {
   height: 95px;
+
   width: 95px;
+
   border-radius: 50%;
+
   background-position: center center !important;
+
   background-size: cover !important;
+
   margin: 10px auto 0 auto;
 }
+
 .vcard-header .top {
   padding: 20px 0 20px 0;
+
   color: #fff;
+
   font-weight: 300;
+
   opacity: 0.8;
 }
+
 .vcard-header .name {
   padding: 20px 0 15px 0;
+
   color: #fff;
+
   font-weight: 400;
 }
+
 .vcard-header .title {
   padding: 0 0 25px 0;
+
   color: #fff;
+
   font-weight: 300;
+
   line-height: 1.4;
+
   max-width: 170px;
+
   margin: 0 auto;
+
   opacity: 0.75;
+
   font-size: 13px;
 }
+
 .whiteTheme .dynamicTextColor {
   color: #fffefe !important;
 }
+
 .vcard-header .vcard-functions {
   display: block;
+
   width: 100%;
+
   text-align: center;
+
   height: 60px;
+
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
+
 .vcard-header .vcard-functions .vcard-functions-wrapper {
   display: table;
+
   margin: 0 auto;
+
   width: 300px;
 
   height: 56px;
+
   text-align: center;
 }
+
 @media (min-width: 690px) {
   .vcard-header .vcard-functions .vcard-functions-wrapper {
     width: 570px;
@@ -83,132 +131,211 @@ body {
 .vcard-header .vcard-functions a {
   min-width: 190px;
 }
+
 .vcard-header .vcard-functions a {
   cursor: pointer;
+
   display: table-cell;
+
   color: #fff;
+
   padding: 10px 0;
+
   min-width: 100px;
+
   margin: 0;
 }
+
 .vcard-header .vcard-functions a i {
   display: inline-block;
+
   font-size: 18px;
+
   margin-bottom: 8px;
 }
+
 .vcard-header .vcard-functions a small {
   display: block;
+
   text-transform: uppercase;
+
   font-size: 10px;
 }
+
 @media (min-width: 690px) {
   .vcard-body-wrapper {
     width: 570px;
+
     margin: 0 auto;
+
     box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+
     margin-bottom: 60px;
   }
 }
+
 .vcard-body-wrapper {
   overflow: hidden;
 }
+
 .vcard-body {
   padding-bottom: 40px;
 }
+
 .vcard-body {
   padding-top: 20px;
 }
+
 .vcard-body {
   height: 100%;
+
   position: relative;
+
   float: left;
+
   width: 100%;
-  padding: 20px 45px 40px;
+
+  padding: 20px 24px 40px;
+
   box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
 }
+
 .vcard-body .vcard-row i:not(.iconFab) {
   position: absolute;
+
   top: 40px;
+
   left: 0;
+
   font-size: 20px;
+
   color: #b3b4bb;
 }
+
 body .vcard-row h4,
 .vcard-body .vcard-row h5,
 .vcard-body .vcard-row h6 {
   line-height: 1.3;
+
   margin-bottom: 5px;
+
   color: #323032;
+
   font-weight: 400;
 }
+
 .vcard-body .vcard-row small {
   display: block;
+
   color: #82848f;
+
   font-size: 13px;
 }
+
 .page-home #dvcard-details {
   display: block;
 }
+
 body .vcard-row h4,
 .vcard-body .vcard-row h5,
 .vcard-body .vcard-row h6 {
   line-height: 1.3;
+
   margin-bottom: 5px;
+
   color: #323032;
+
   font-weight: 400;
 }
+
 .vcard-body .vcard-row {
   position: relative;
+
   padding: 20px 0 20px 45px;
+
   float: left;
+
   width: 100%;
 }
+
 .vcard-body .vcard-separator {
   height: 1px;
+
   background-color: #eaeaea;
+
   float: right;
+
   width: calc(100% - 45px);
 }
+
 .socialMedia-container {
   margin-top: 25px;
+
   padding-left: 20px;
 }
+
 .socialMedia-container label {
   font-size: 16px;
+
   margin-bottom: 40px !important;
+
   float: left;
+
   width: 100%;
+
   padding-left: 45px;
 }
+
 .logout {
   position: absolute;
+
   top: 20px;
+
   right: 20px;
+
   width: 32px;
+
   height: 32px;
 }
 
 .prime {
   background: #e5462b;
+
   display: block;
+
   width: 200px;
+
   text-decoration: none;
+
   color: white;
+
   height: 56px;
+
   border-radius: 2px;
+
   margin-top: 52px !important;
+
   text-align: center;
+
   border: none;
 }
+
 .prime span {
   font-size: 14px;
+
   font-weight: 500;
+
   text-transform: uppercase;
+
   display: inline-block;
+
   line-height: 52px;
+
   position: relative;
 }
+
 a {
   text-decoration: none;
+
   color: #82848f;
 }

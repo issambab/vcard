@@ -11,10 +11,6 @@ class Code_carte extends Model
     public $table = 'code_carte' ;
   //  protected $dates = ['deleted_at']; 
 
-    public function products()
-	{
-		return $this->belongsTo(Product::class);
-	}
 
   public function candidats()
 	{
